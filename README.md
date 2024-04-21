@@ -1,23 +1,33 @@
-# cwmPR8f7
+# React Trivia Question App
+The React Trivia Question App is a web application built with React that presents users with a set of random trivia questions. Users are required to answer the questions, and upon submitting their answers, they receive feedback on their performance. The project fetches trivia questions from the Open Trivia Database API and provides an interactive and engaging trivia experience.
 
-Warning: Vite enforces using jsx syntax inside jsx/tsx files, so it will complain about that. Solution: rename `.js` files to `.jsx` :)
+# Live Website
+https://quizzical-sham.netlify.app/
 
-Quick start:
+# Features
+- Display a set of 5 random trivia questions.
+- Allow users to answer the questions.
+- Provide feedback on the correctness of the answers.
+- Simple and responsive user interface.
 
-```
-$ npm install
-$ npm start
-````
+# Technologies Used
+This project is developed using the following technologies:
 
-Head over to https://vitejs.dev/ to learn more about using vite
-## About Scrimba
+- React
+- HTML
+- CSS
+- Open Trivia Database API
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+# How to Use
+- Clone or download the repository to your local machine.
+- Install the necessary dependencies by running npm install in the project directory.
+- Obtain an API token from Open Trivia Database (optional but recommended for better API usage).
+- Replace the placeholder API token in the project code with your own token (if obtained).
+- Start the development server by running npm start.
+- Open the application in your web browser.
+- Answer the 5 trivia questions displayed on the screen.
+- Click the "Check Answer" button to submit your answers and view the results.
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+# Screenshot
 
-Happy Coding!
+![Screenshot 2024-04-21 203529](https://github.com/ShamBB/quizzical/assets/26355647/37a23892-4034-4271-a6a5-dcfeb364d94d)
